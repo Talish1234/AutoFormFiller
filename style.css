@@ -1,0 +1,59 @@
+#notification-box{
+background-color : transparent;
+padding-left: 10px;
+position : fixed;
+width : 100%;
+z-index : 99;
+bottom : 10%;
+}
+
+
+
+.notification-message {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeInOut 4s forwards;
+  width: 25%;
+}
+
+/* Toaster Types */
+.notification-message.success {
+  background-color: #4caf50;
+}
+
+.notification-message.error {
+  background-color: #f44336;
+}
+
+.notification-message.info {
+  background-color: #2196f3;
+}
+
+.notification-message.warning {
+  background-color: #ff9800;
+}
+
+/* Fade-in and Fade-out animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
