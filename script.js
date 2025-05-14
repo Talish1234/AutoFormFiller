@@ -79,7 +79,7 @@ function extractSelectFormElements() {
 function fillInputForm(results) {
   if (results && results.length > 0 && results[0].result) {
     // Send the input IDs to the backend
-    fetch("http://localhost:3000/api/gemini/input-form-filler", {
+    fetch("https://autoformfillerapi.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -135,7 +135,7 @@ function fillInputForm(results) {
 function fillSelectForm(results) {
   if (results && results.length > 0 && results[0].result) {
     // Send the input IDs to the backend
-    fetch("http://localhost:3000/api/gemini/select-form-filler", {
+    fetch("https://autoformfillerapi.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
