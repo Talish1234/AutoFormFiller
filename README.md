@@ -22,7 +22,7 @@ This is a **Chrome Extension** that intelligently auto-fills web forms using Gem
 - Chrome Extension API (Manifest V3)
 - Gemini API (Google Generative AI)
 - DOM manipulation
-- 
+
 ## Features
 
 -  Detects and parses form input fields
