@@ -14,7 +14,7 @@ This is a **Chrome Extension** that intelligently auto-fills web forms using Gem
 1. Clone or download this repository:
 
    ```bash
-   git clone https://github.com/your-username/auto-form-filler.git
+   git clone https://github.com/Talish1234/auto-form-filler.git
 
 ## Tech Stack
 
